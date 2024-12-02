@@ -87,7 +87,7 @@ import java.util.stream.IntStream;
 public class Day1 {
 
   public static void main(String[] args) {
-    String filePath = "src/main/java/com/advent2024/input_day1.txt";
+    String filePath = "src/main/resources/input_day1.txt";
     HistorianDistanceCalculator historianDistanceCalculator = new HistorianDistanceCalculator();
     historianDistanceCalculator.readInput(filePath);
     long totalDistance = historianDistanceCalculator.calculateTotalDistance();
